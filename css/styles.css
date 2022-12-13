@@ -39,7 +39,6 @@ text-decoration: none;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
-
 }
 
 .list-studio{
@@ -773,6 +772,8 @@ justify-content: center;
 
 .social{
 display: flex;
+align-items: center; 
+justify-content: center;
 gap: 24px;
 }
 
@@ -780,6 +781,7 @@ gap: 24px;
 display: flex; 
 width: 40px;
 height: 40px;
+margin-top: 12px;
 background-color: var(--iris);
 border-radius: 50%;
 }
@@ -809,6 +811,7 @@ height: 112px;
 background: #F4F4FD;
 }*/
 
+
 .customers-list{
  padding-top: 120px;   
  padding-bottom: 120px;
@@ -820,6 +823,13 @@ font-size: 36px;
 line-height: 1.2;
 text-align: center;
 color: var(--NAVYBLUE);   
+}
+
+.customers-item{
+display: flex;
+align-items: center; 
+justify-content: center;
+ gap: 24px;
 }
 
 .customers-item_li{
@@ -848,6 +858,15 @@ line-height: 24px;
 color: var(--white);
 }
 
+.footer-list{
+display: flex;
+margin-left: 120px;
+}
+
+.footer-item{
+margin-right: 16px;
+}
+
 .fotter-link{
 display: flex;
 justify-content: center;
@@ -859,26 +878,19 @@ border-radius: 50%;
 background: rgba(255, 255, 255, 0.1);
 }
 
-.fotter-link:hover,
-.fotter-link:focus{
-color:#31D0AA ;   
-}
-
 .fotter-svg-list{
 width: 208px;
 height: 80px;   
 margin-left: 120px;
 }
 
-.fotter-item{
-display: flex; 
-}
-
 .fotter-svg{
 fill: var(--white);
 }
 
-
+.footer.container{
+display: flex;
+}
 
 
 
